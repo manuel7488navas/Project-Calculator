@@ -1,4 +1,3 @@
-
 document.querySelector(".calculator").style.border = "solid black";
 document.querySelector(".screen").style.border = "solid black";
 
@@ -118,4 +117,3 @@ function operate() {
 updateDisplay();
 
 
-//keyboard support
