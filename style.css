@@ -63,6 +63,7 @@ p{
     width: 360px;
     height: 480px;
     border-radius: 40px;
+    padding:0.3rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -74,16 +75,19 @@ p{
 
 button{
     background-color: blanchedalmond;
-    width: 70px;
     height: 70px;
     border-radius: 30px;
-    margin:10px;
+    margin:5px;
     font-size: 30px;
     font-weight: 600;
     color: rgb(60, 56, 50);
     
-
-    
+}
+#backspace-button{
+    grid-column: span 2; 
+}
+.equals-button{
+    grid-column: span 2;
 }
 
 .footer{
@@ -97,4 +101,5 @@ button{
     align-items: center;
  
   }
+  
   
